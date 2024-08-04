@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: myfont ;
+    src: url(assets/fonts/FoundersGrotesk-Semibold.ttf);
+  
+}
+
+@font-face {
+    font-family: navbarfont;
+    src: url(assets/fonts/NeueMontreal-Regular.ttf);
+}
+.transition-all {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .eyes-background {
+    background-image: url('/public/Top-Viewbbcbv-1-1440x921.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
